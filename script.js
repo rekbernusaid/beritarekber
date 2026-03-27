@@ -146,23 +146,27 @@ function setupSearch() {
 // ================= TRENDING =================
 function loadTrending(posts) {
   const container = document.getElementById("trending-container");
-
   if (!container) return;
 
-  const trending = posts
-    .filter(p => p.isTrending === true)
-    .slice(0, 6);
+  let trending = posts.filter(p => p.isTrending === true);
 
+  // 🔥 fallback kalau tidak ada trending
   if (trending.length === 0) {
-    container.innerHTML = "<p>Tidak ada trending</p>";
-    return;
+    trending = [...posts]
+      .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+      .slice(0, 6);
   }
+
+  // 🔥 batasi max 6
+  trending = trending.slice(0, 6);
 
   container.innerHTML = trending.map(post => `
     <a href="detail.html?id=${post.id}" class="trending-item">
-      <img src="${post.image}" alt="">
-      <h4>${post.title}</h4>
-      <span>${post.category}</span>
+      <img src="${post.image}" alt="${post.title}">
+      <div class="trending-content">
+        <h4>${post.title}</h4>
+        <span>${post.category}</span>
+      </div>
     </a>
   `).join("");
 }
