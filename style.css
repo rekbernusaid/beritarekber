@@ -26,7 +26,7 @@ body {
   align-items: center;
   gap: 10px;
   padding: 10px;
-  background: linear-gradient(to right, #b91c1c, #020617);
+  background: linear-gradient(to right, #1c39b9, #020617);
 }
 
 /* LOGO */
@@ -65,7 +65,7 @@ body {
   gap: 15px;
   padding: 10px;
   background: #fff;
-  border-bottom: 2px solid #b91c1c;
+  border-bottom: 2px solid #1f1cb9;
   overflow-x: auto;
 }
 
@@ -80,12 +80,12 @@ body {
 
 /* HOVER */
 .navbar a:hover {
-  color: #b91c1c;
+  color: #2c1cb9;
 }
 
 /* ACTIVE */
 .navbar a.active {
-  color: #b91c1c;
+  color: #261cb9;
   font-weight: bold;
 }
 
@@ -95,7 +95,7 @@ body {
   position: absolute;
   width: 0%;
   height: 2px;
-  background: #b91c1c;
+  background: #261cb9;
   left: 0;
   bottom: 0;
   transition: 0.3s;
@@ -149,7 +149,7 @@ body {
 /* CATEGORY */
 .hero-overlay .category {
   font-size: 12px;
-  color: #f87171;
+  color: #7a71f8;
   font-weight: bold;
 }
 
@@ -256,7 +256,7 @@ body {
 /* CATEGORY */
 .news-content .category {
   font-size: 11px;
-  color: #b91c1c;
+  color: #261cb9;
   font-weight: bold;
 }
 
@@ -316,7 +316,7 @@ body {
 }
 
 .detail-container .category {
-  color: #b91c1c;
+  color: #1c26b9;
   font-weight: bold;
   font-size: 13px;
 }
@@ -337,7 +337,7 @@ body {
 
 .back-btn a {
   text-decoration: none;
-  color: #b91c1c;
+  color: #2c1cb9;
   font-weight: bold;
   font-size: 14px;
 }
@@ -360,7 +360,7 @@ body {
 }
 
 .detail-container .category {
-  color: #b91c1c;
+  color: #1c1fb9;
   font-weight: bold;
   font-size: 13px;
 }
@@ -389,7 +389,7 @@ body {
 }
 
 .detail-container .category {
-  color: #b91c1c;
+  color: #1f1cb9;
   font-weight: bold;
   font-size: 13px;
 }
@@ -408,7 +408,7 @@ body {
 
 .popular h3 {
   margin-bottom: 10px;
-  border-left: 4px solid #b91c1c;
+  border-left: 4px solid #1c2cb9;
   padding-left: 8px;
 }
 
@@ -446,7 +446,7 @@ body {
 
 /* HOVER */
 .popular-item:hover h4 {
-  color: #b91c1c;
+  color: #261cb9;
 }
 
 
@@ -460,7 +460,7 @@ body {
 
 .trending h3 {
   margin-bottom: 10px;
-  border-left: 4px solid #b91c1c;
+  border-left: 4px solid #1c26b9;
   padding-left: 8px;
 }
 
@@ -498,7 +498,7 @@ body {
 
 /* HOVER */
 .trending-item:hover h4 {
-  color: #b91c1c;
+  color: #261cb9;
 }
 
 
@@ -512,7 +512,7 @@ body {
 .social h3 {
   font-size: 18px;
   margin-bottom: 15px;
-  border-left: 4px solid #b91c1c;
+  border-left: 4px solid #1c26b9;
   padding-left: 10px;
 }
 
@@ -564,7 +564,7 @@ body {
 /* HOVER EFFECT */
 .social-item:hover {
   transform: translateY(-3px);
-  border-color: #e22828;
+  border-color: #2b28e2;
 }
 
 .social-item:hover img {
@@ -575,8 +575,8 @@ body {
 /* BRAND ACCENT (TIPIS, PRO STYLE) */
 .facebook { border-left: 3px solid #1877f2; }
 .twitter { border-left: 3px solid #1da1f2; }
-.instagram { border-left: 3px solid #e1306c; }
-.pinterest { border-left: 3px solid #e60023; }
+.instagram { border-left: 3px solid #4230e1; }
+.pinterest { border-left: 3px solid #000fe6; }
 
 /* DESKTOP */
 @media (min-width: 768px) {
@@ -624,7 +624,7 @@ body {
 .about h3 {
   font-size: 18px;
   margin-bottom: 12px;
-  border-left: 4px solid #b91c1c;
+  border-left: 4px solid #1f1cb9;
   padding-left: 10px;
 }
 
@@ -664,13 +664,13 @@ body {
 
 /* LOGO */
 .footer-logo {
-  color: #9b2323;
+  color: #2f239b;
   margin-bottom: 10px;
 }
 
 /* TITLE */
 .footer-col h4 {
-  color: #612020;
+  color: #212061;
   margin-bottom: 10px;
   font-size: 14px;
 }
@@ -709,7 +709,7 @@ body {
   padding: 12px;
   border-top: 1px solid #222;
   font-size: 12px;
-  color: #971c1c;
+  color: #241c97;
 }
 
 /* DESKTOP */
@@ -720,7 +720,7 @@ body {
 }
 
 .footer {
-  border-top: 3px solid #b91c1c;
+  border-top: 3px solid #1c26b9;
 }
 
 
@@ -745,7 +745,7 @@ body {
   font-size: 13px;
   font-weight: 500;
 
-  background: linear-gradient(135deg, #b91c1c, #3d1c1c);
+  background: linear-gradient(135deg, #1c26b9, #1c223d);
   transition: 0.3s;
 }
 
@@ -757,7 +757,7 @@ body {
 
 /* ACTIVE */
 .nav-item.active {
-  background: linear-gradient(135deg, #ff0000, #1d0404);
+  background: linear-gradient(135deg, #0400ff, #06041d);
 }
 
 /* DESKTOP */
@@ -784,7 +784,7 @@ body {
   font-size: 12px;
   font-weight: 600;
   color: #fff;
-  background: #b91c1c;
+  background: #2c1cb9;
   padding: 4px 10px;
   border-radius: 4px;
   margin-bottom: 15px;
@@ -844,7 +844,7 @@ body {
 
 /* QUOTE */
 .detail-content blockquote {
-  border-left: 4px solid #b91c1c;
+  border-left: 4px solid #261cb9;
   padding-left: 15px;
   margin: 20px 0;
   color: #555;
