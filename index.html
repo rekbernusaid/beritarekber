@@ -1,137 +1,237 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Beritarekber</title>
 
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-  <!-- TOPBAR -->
+  <!-- ================= TOPBAR ================= -->
   <div class="topbar">
-    Portal Berita Gaming Terupdate 🎮
+
+    <div class="container topbar-flex">
+
+      <p>
+        Berita Gaming & Esports Indonesia 🔥
+      </p>
+
+      <span>
+        beritarekber.com
+      </span>
+
+    </div>
+
   </div>
 
-  <!-- HEADER -->
-  <div class="header-main">
-    <div class="logo">Beritarekber</div>
+  <!-- ================= HEADER ================= -->
+  <header class="header">
 
-    <div class="search-box">
-      <!-- 🔥 FIX DI SINI -->
-      <input type="text" id="search-input" placeholder="Cari berita...">
-    </div>
+    <div class="container header-wrapper">
 
-    <div class="header-right">
-      🔔
-    </div>
-  </div>
+      <!-- LOGO -->
+      <a href="index.html" class="logo">
 
-  <!-- NAVBAR -->
-  <div class="navbar">
-    <a href="#" class="active">Informasi Moba</a>
-    <a href="#">Seputar Moba</a>
-    <a href="#">Moba Tips</a>
-    <a href="#">Jasa & Layanan</a>
-  </div>
+        <div class="logo-icon">
+          🎮
+        </div>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-main" id="hero-container">
-      <p style="padding:10px;">Loading berita...</p>
-    </div>
-  </section>
+        <div class="logo-text">
 
-  <!-- LIST BERITA -->
-  <section class="news">
-    <div class="news-container" id="news-container"></div>
-  </section>
+          <h1>Beritarekber</h1>
 
-  <!-- TRENDING -->
-  <section class="trending">
-    <h3>🔥 Trending Hari Ini</h3>
-    <div id="trending-container" class="trending-list"></div>
-  </section>
+          <p>
+            Gaming News Portal
+          </p>
 
-  <!-- SOCIAL -->
-  <section class="social">
-    <h3>Ikuti Kami</h3>
+        </div>
 
-    <div class="social-list">
-      <a href="#" class="social-item facebook">
-        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg">
-        <div><h4>Facebook</h4><p>225K Followers</p></div>
       </a>
 
-      <a href="#" class="social-item twitter">
-        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg">
-        <div><h4>Twitter</h4><p>12K Followers</p></div>
-      </a>
+      <!-- SEARCH -->
+      <div class="search-box">
 
-      <a href="#" class="social-item instagram">
-        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg">
-        <div><h4>Instagram</h4><p>1,2jt Followers</p></div>
-      </a>
+        <!-- JANGAN HAPUS -->
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Cari berita gaming..."
+        >
 
-      <a href="#" class="social-item pinterest">
-        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/pinterest.svg">
-        <div><h4>Pinterest</h4><p>1.8K Followers</p></div>
-      </a>
-    </div>
-  </section>
+        <button>
+          🔍
+        </button>
 
-  <!-- ABOUT -->
-  <section class="about">
-    <div class="about-container">
-
-      <div class="about-image">
-        <img src="c.jpg" alt="gaming">
       </div>
 
-      <h3>Tentang Beritarekber</h3>
-
-      <p>
-        <strong>Beritarekber</strong> adalah portal berita gaming yang menyajikan informasi terbaru
-        seputar dunia MOBA.
-      </p>
-
-      <p>
-        Kami menghadirkan konten yang relevan dan mudah dipahami serta layanan gaming terpercaya.
-      </p>
+      <!-- ACTION -->
+      
 
     </div>
+
+  </header>
+
+  <!-- ================= NAVBAR telah dihapus ================= -->
+  
+
+  <!-- ================= HERO ================= -->
+  <section class="hero-section">
+
+    <div class="container">
+
+      <!-- JANGAN HAPUS -->
+      <div id="hero-container" class="hero-main">
+
+        <div class="loading-box">
+          Loading berita...
+        </div>
+
+      </div>
+
+    </div>
+
   </section>
 
-  <!-- FOOTER -->
+  <!-- ================= TRENDING ================= -->
+  <section class="trending-section">
+
+    <div class="container">
+
+      <div class="section-title">
+
+        <span>
+          TRENDING
+        </span>
+
+        <h2>
+          🔥 Trending Hari Ini
+        </h2>
+
+      </div>
+
+      <!-- JANGAN HAPUS -->
+      <div id="trending-container" class="trending-wrapper"></div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= NEWS ================= -->
+  <main class="news-section">
+
+    <div class="container">
+
+      <div class="section-title">
+
+        <span>
+          UPDATE TERBARU
+        </span>
+
+        <h2>
+          Berita Gaming
+        </h2>
+
+      </div>
+
+      <!-- JANGAN HAPUS -->
+      <div id="news-container" class="news-grid"></div>
+
+    </div>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
   <footer class="footer">
-    <div class="footer-container">
 
-      <div class="footer-col">
+    <div class="container">
+
+      <!-- TOP -->
+      <div class="footer-top">
+
+        <!-- BRAND -->
+        <div class="footer-brand">
+
+          <div class="footer-logo">
+            🎮 Beritarekber
+          </div>
+
+          <p>
+            Portal berita gaming Indonesia yang menghadirkan update game,
+            esports, tips rank dan patch terbaru setiap hari.
+          </p>
+
+        </div>
+
+        <!-- MENU -->
+        <div class="footer-menu">
+
+          <h3>
+            Navigation
+          </h3>
+
+          <a href="#">
+            Informasi Moba
+          </a>
+
+          <a href="#">
+            Seputar Moba
+          </a>
+
+          <a href="#">
+            Moba Tips
+          </a>
+
+          <a href="#">
+            Jasa & Layanan
+          </a>
+
+        </div>
+
+        <!-- CONTACT -->
+        <div class="footer-menu">
+
+          <h3>
+            Contact
+          </h3>
+
+          <p>
+            support@beritarekber.com
+          </p>
+
+          <p>
+            Indonesia Gaming Community
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- BOTTOM -->
+      <div class="footer-bottom">
+
         <p>
-          Portal berita gaming terpercaya yang menyajikan informasi seputar dunia MOBA.
+          © 2026 Beritarekber. All rights reserved.
         </p>
-      </div>
 
-      <div class="navbar-grid">
-        <a href="#" class="nav-item">Informasi Moba</a>
-        <a href="#" class="nav-item">Seputar Moba</a>
-        <a href="#" class="nav-item">Moba Tips</a>
-        <a href="#" class="nav-item">Jasa & Layanan</a>
-      </div>
-
-      <div class="footer-col">
-        <h4>Kontak</h4>
-        <ul>
-          <li>Email: support@beritarekber.com</li>
-        </ul>
       </div>
 
     </div>
 
-    <div class="footer-bottom">
-      <p>© 2026 Beritarekber. All rights reserved.</p>
-    </div>
   </footer>
 
   <!-- SCRIPT -->
