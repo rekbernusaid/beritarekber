@@ -48,7 +48,7 @@ function loadHero(posts) {
   const headline = posts.find(p => p.isHeadline === true);
 
   if (!headline) {
-    setError("Tidak ada berita headline");
+    setError("");
     return;
   }
 
@@ -179,7 +179,7 @@ function setError(message) {
 
   container.innerHTML = `
     <p style="padding:10px; color:red;">
-      ⚠️ ${message}
+       ${message}
     </p>
   `;
 }
