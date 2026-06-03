@@ -13,7 +13,17 @@ html{
 
 body{
   font-family:'Poppins',sans-serif;
-  background:#ffffff;
+  background:
+linear-gradient(
+135deg,
+#15204d 0%,
+#2e2b75 35%,
+#4f3d8f 70%,
+#664972 100%
+);
+
+box-shadow:
+0 0 40px rgba(79,61,143,.25);
   color:#111;
   overflow-x:hidden;
 }
@@ -50,7 +60,7 @@ img{
 }
 
 ::-webkit-scrollbar-thumb{
-  background:linear-gradient(to bottom,#003cff,#0004ff);
+  background:linear-gradient(to bottom,#2b0935,#0004ff);
   border-radius:20px;
 }
 
@@ -61,12 +71,12 @@ img{
   background:
   linear-gradient(90deg,#111,#1f1f1f);
 
-  color:#fff;
+  color:#3e038a;
 
   font-size:12px;
 
   border-bottom:
-  2px solid #001aff;
+  2px solid #16073f;
 }
 
 .topbar-flex{
@@ -78,7 +88,7 @@ img{
 }
 
 .topbar span{
-  color:#4763ff;
+  color:#1839f8;
 }
 
 /* =========================
@@ -125,7 +135,7 @@ img{
   font-size:22px;
 
   background:
-  linear-gradient(135deg,#0026ff,#001aff);
+  linear-gradient(135deg,#1f023f,#001aff);
 
   color:#fff;
 
@@ -174,7 +184,7 @@ img{
 }
 
 .search-box input:focus{
-  border-color:#0011ff;
+  border-color:#160230;
 
   box-shadow:
   0 0 0 4px rgba(0, 47, 255, 0.12);
@@ -194,7 +204,7 @@ img{
   cursor:pointer;
 
   background:
-  linear-gradient(135deg,#002fff,#0011ff);
+  linear-gradient(135deg,#1f074b,#0011ff);
 
   color:#fff;
 }
@@ -1063,3 +1073,15 @@ img{
 
   line-height:1.9;
 }
+
+
+
+
+
+/* =========================
+  scriptttttt tambahan jeee 
+========================= */
+
+
+
+
