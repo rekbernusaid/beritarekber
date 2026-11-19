@@ -1,6 +1,6 @@
 // ================= CONFIG =================
 const API_URL = "https://api.jsonbin.io/v3/b/69c67da0c3097a1dd5674291/latest";
-const API_KEY = "$2a$10$S7Gp4Pzo2zHlkUfdVex9ku2hW188/ABDbNCjES1mQKzKS20VhFKJi";
+const API_KEY = "vvvvv";
 
 // ================= GLOBAL DATA =================
 let allPosts = [];
